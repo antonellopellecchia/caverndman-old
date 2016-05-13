@@ -8,7 +8,7 @@ description: >
 baseurl: ""
 url: "http://caverndman.github.io"
 excerpt_separator: <!--break-->
-paginate: 2
+paginate: 5
 
 # Build settings
 markdown: kramdown
