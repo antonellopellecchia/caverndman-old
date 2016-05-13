@@ -1,0 +1,19 @@
+<div id="site_header">
+  <div id="site_logo"><a href="/">
+    {% if logo_error %}
+      <img src="{{ url_for('static', filename='images/logo'+logo_error+'.png') }}" />
+    {% else %}
+      <img src="{{ "/images/logo.png" | prepend: site.baseurl }}" />
+    {% endif %}
+  </a></div>
+  <div id="site_title"><a href="/">{{ site.title | escape }}</a></div>
+  <ul id="navigation">
+    <li><a href="/">Posts</a></li>
+    <li><a href="/archive">Archive</a></li>
+  {% for site_page in site.pages %}
+    {% if site_page.title %}
+      <li><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

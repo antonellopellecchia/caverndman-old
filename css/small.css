@@ -1,0 +1,27 @@
+body {
+	width: 99%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#site_wrapper {
+	width: 99%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul#navigation {
+	margin-top: .5em;
+	width: 90%;
+	font-weight: bold;
+}
+
+h1.article_title {
+	text-align: center;
+}
+
+form#article_comment_send textarea, form#article_comment_send input[type=text] {
+	width: 90%;
+}

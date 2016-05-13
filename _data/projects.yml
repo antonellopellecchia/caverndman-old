@@ -1,0 +1,27 @@
+- title: Vicious chain
+  url: http://viciouschain.herokuapp.com
+  image: viciouschain.png
+  description: >
+   An Android application to let you defeat your vices and become an asceticism master.
+   Its story is quite interesting from my point of view and it can't be explained completely here, but it
+   is enough for you knowing it has been my main technological focus for months. Now I'm looking for anyone
+   disposed to buy and maintain it. Anybody interested can have a look at its
+   <a href='http://www.fliptopia.com/listings/11970-vicious-chain-vice-control-application'>Fliptopia page</a>.
+
+- title: Foomett
+  url: http://foomett.herokuapp.com
+  image: foomett.png
+  description: >
+   Half web comic, half art gallery, created for a friend of mine who started to draw and wanted
+   some place to publish his early artworks, in order to catalogue then for when he'll become a famous painter.
+
+- title: StreamStation
+  url: https://play.google.com/store/apps/details?id=com.magratheadesign.streamstation
+  image: streamstation.png
+  description: >
+   An open-source Android download server, useful to find a job for an old device. With StreamStation
+   you can start, stop and manage HTTP downloads on your mobile phone remotely from another device, through a
+   comfortable web interface. Setting up a port forwarding on your router you can also manage your downloads outside
+   your LAN.<br /> An user guide is also avaliable <a target='_blank'
+   href='http://magratheadesign.co.nf/streamstation/manual/'>here</a>, while the source code is on
+   <a target='_blank' href='https://github.com/ejntoo/streamstation'>Github</a>.

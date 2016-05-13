@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <ul id="palette">
+      <li title="#588C7E" style="background: #588C7E"></li>
+      <li title="#F2E394" style="background: #F2E394"></li>
+      <li title="#F2AE72" style="background: #F2AE72"></li>
+      <li title="#D96459" style="background: #D96459"></li>
+      <li title="#8C4646" style="background: #8C4646"></li>
+    </ul>
+
+    <div id="site_wrapper">
+      {% include header.html %}
+      <div id="main">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>
