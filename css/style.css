@@ -3,6 +3,7 @@ body {
 	width: 100%;
 	padding: 0;
 	background-color: #fafafa;
+	background-image: url('../images/background.png');
 	color: #333;
 	font-family: 'Cabin', sans-serif;
 }
@@ -155,13 +156,12 @@ div.article_text {
 }
 
 div.article_text a, div.project_description a {
-	border-bottom: 1px dotted #212121;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #212121;
 }
 
-div.article_text a.hasimg {
-	border-bottom: none;
+div.article_text a.footnote, div.article_text a.reversefootnote {
+	text-decoration: none;
 }
 
 div.article_read_more a  {
@@ -174,7 +174,7 @@ div.article_text p, ul, ol {
 }
 
 div.article_text img {
-	margin: 1em;
+	margin: 1em auto;
 	max-width: 100%;
 }
 
