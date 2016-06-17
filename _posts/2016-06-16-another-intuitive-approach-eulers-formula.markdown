@@ -60,7 +60,7 @@ The next step consists of finding \\((1+ix)^n\\) on the complex plane using de M
 ![Complex power of 1+ix](/images/euler/complexpower.png)
 {:style="text-align: center"}
 
-It is straightforward that as \\(n\\) rises the phase and magnitude of the result rise indefinitely, since we're stacking more and more triangles; for \\(n\to\infty\\), then, the power will go to infinity as well (I mean the magnitude *and* the phase of the complex power both go to infinity!). This is definitely not helpful for us.
+It is straightforward that as \\(n\\) rises the phase and magnitude of the result rise indefinitely, since we're stacking more and more triangles; for \\(n\to\infty\\), then, the power will go to infinity as well (in the sense that the magnitude *and* the phase of the complex power both go to infinity). This is definitely not helpful for us.
 
 Let us now complicate this a little bit by replacing \\(1+ix\\) with \\(1+\frac{ix}{n}\\): in our drawing, this means the triangle representing the complex number has the vertical cathetus \\(x/n\\) long. The figure will look similar too:
 
@@ -70,10 +70,10 @@ Let us now complicate this a little bit by replacing \\(1+ix\\) with \\(1+\frac{
 The difference is now the length of the vertical cathetus decreases as \\(n\\) rises, a fact which gives birth to something much more interesting. This is the crucial moment, so we will understand it slowly. As \\(n\\) rises,
 
 - The number of the triangles rises, going to infinity as \\(n\to\infty\\); this also happened earlier.
-- The length of the certical cathetus goes to 0: this definitely wasn't happening earlier.
+- The length of the vertical cathetus goes to 0: this definitely wasn't happening earlier.
 - As the length of the cathetus drops, the length of the hypotenuse tends to the length of the larger cathetus (you can easily see that from Pythagora's theorem); but the horizontal cathetus has length 1, so also the hypotenuse approaches 1 in length! As we saw before, this means both the hypotenuse and the cathetus tend to lie on the unit-radius circle.
 - For the second triangle lying on the first triangle, its expansion tends to 1: this means that for \\(n\to\infty\\) the second triangle (and then the third, the fourth and so on) are not expanded at all; each hypotenuse has the length of the larger cathetus, which is 1. You can see where we are directed: the magnitude of the power \\((1+ix/n)^n\\) stays limited.
-- As the length of the cathetus drops, the phase \\(\alpha\\) of the complex number \\(1+ix/n\\) also decreases; more precisely, since two out of three vertices of the triangle lie on the unit-radius circle, the length of the angle (in radians) is
+- As the length of the cathetus drops, the phase \\(\alpha\\) of the complex number \\(1+ix/n\\) also decreases; more precisely, since two out of three vertices of the triangle lie on the unit-radius circle, the phase (in radians) measures
 \\[ \alpha = \frac{l}{R} \\]
 where \\(l\\) is the corresponding circumference arc and \\(R\\) is the radius of the circle. But the circle has radius 1, while the arc approaches the length \\(x/n\\) of the smaller cathetus as \\(n\\) increases: this means that \\(\alpha\approx x/n\\), the approximation getting more and more precise as \\(n\\) gets higher and higher.
 - Our last step is to determine what happens to the fase of the power as \\(n\to\infty\\). This will be easy: we have to multiply the phase of the base for the exponent n. If \\(\theta\\) is the phase of the result,
@@ -89,7 +89,7 @@ These are the magnitude and the phase of \\(e^{ix}\\): we can then write:
 
 \\[ e^{ix} = (1,x) \\]
 
-The effect of the exponential function of \\(ix\\) is to get the complex number with magnitude 1 and phase \\(x\\). We can also get further: if a complex number \\(z\\) has length \\(\rho\\) and phase \\(\theta\\), the trigonometric representation gives us:
+The effect of the exponential function of \\(ix\\) is to get the complex number with magnitude 1 and phase \\(x\\). We can also go further: if a complex number \\(z\\) has length \\(\rho\\) and phase \\(\theta\\), the trigonometric representation gives us:
 
 \\[ z = \rho(\cos\theta+i\sin\theta) \\]
 
