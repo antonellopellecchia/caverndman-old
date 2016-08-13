@@ -264,6 +264,10 @@ div#article_pagination a {
 	color: #607d8b;
 }
 
+div#article_pagination div {
+	margin-bottom: .5em;
+}
+
 /* ============================
 		Projects
      ============================ */
