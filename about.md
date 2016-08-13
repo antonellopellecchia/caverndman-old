@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About this site
 permalink: /about/
 ---
 
@@ -13,4 +13,4 @@ The title comes from the incipit of William Blake's <cite>Europe: a prophecy</ci
 There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.
 </blockquote>
 
-<p>In the <a href="/archive">archive</a> page you can find all the articles written so far, while the <a href="/projects">projects</a> page contains my most important creations. Have a nice reading!</p>
+<p>In the <a href="/archive">archive</a> page you can find all the articles written so far, while the <a href="/projects">projects</a> page contains some of my creations. Have a nice reading!</p>
