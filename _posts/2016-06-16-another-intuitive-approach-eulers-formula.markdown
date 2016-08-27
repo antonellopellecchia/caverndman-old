@@ -35,7 +35,7 @@ Before going on, we should just make a small change to this equality. Supposing 
 
 First of all, let's make sense of the expression $$ \left( 1 + \frac{ix}{n} \right)^n $$: the first thing we need to interpret the correct way is the meaning of the $$n$$-th power of the complex number $$ 1 + ix/n $$; since a power is just a repeated product, we should get a simple image of how complex product works. Sure, there's a simple rule to multiply complex numbers given their algebric form, but in order to truly understand things in mathematics you must know a way to get a result just by manipulating images. So, here is an image encouraging us:
 
-![Complex product](/images/euler/complexproduct.png)
+![Complex product](/images/another-intuitive-approach-eulers-formula/complexproduct.png)
 {:style="text-align: center"}
 
 To summon briefly, complex numbers are points in Gauss's plane, whose two axis indicate the real part and the imaginary part. If $$ a = s+it $$, in the plane $$a$$ will be represented by a point with x-coordinate $$s$$ and y-coordinate $$t$$. But a complex number can also be represented in polar coordinates as 
@@ -51,21 +51,21 @@ If you want to determine the $$n$$-th power of a complex number, take its magnit
 
 Back to our problem, now. The first step is to visualize the number $$1+ix/n$$ in Gauss's plane; we shall begin by visualizing just $$1+ix$$, which would be easier. Its real part is 1 and its imaginary part is x, so its representation is this:
 
-![1+ix](/images/euler/complexnumber.png)
+![1+ix](/images/another-intuitive-approach-eulers-formula/complexnumber.png)
 {:style="text-align: center"}
 
 You might have noticed I drew a circle of radius one in the complex plane: this will be useful later, but for now you should remember that any number of magnitude 1 will have the tip of its arrow on the circle.
 
 The next step consists of finding $$(1+ix)^n$$ on the complex plane using de Moivre's equality: starting from 1, I'm going to draw a triangle with its longer cathetus lying on the hypotenuse of $$1+ix$$'s triangle; in order for the cathetus to coincide with the hypotenuse, the second triangle will have to be slightly expanded with respect to the first one, but the two will be similar. Then I'll do the same thing lying a third triangle on the second one's hypotenuse, and I'll repeat until I get $$n$$ triangles lying on one another:
 
-![Complex power of 1+ix](/images/euler/complexpower.png)
+![Complex power of 1+ix](/images/another-intuitive-approach-eulers-formula/complexpower.png)
 {:style="text-align: center"}
 
 It is straightforward that as $$n$$ rises the phase and magnitude of the result rise indefinitely, since we're stacking more and more triangles; for $$n\to\infty$$, then, the power will go to infinity as well (in the sense that the magnitude *and* the phase of the complex power both go to infinity). This is definitely not helpful for us.
 
 Let us now complicate this a little bit by replacing $$1+ix$$ with $$1+\frac{ix}{n}$$: in our drawing, this means the triangle representing the complex number has the vertical cathetus $$x/n$$ long. The figure will look similar too:
 
-![Complex power of 1+ix/n](/images/euler/euler1.png)
+![Complex power of 1+ix/n](/images/another-intuitive-approach-eulers-formula/euler1.png)
 {:style="text-align: center"}
 
 The difference is now the length of the vertical cathetus decreases as $$n$$ rises, a fact which gives birth to something much more interesting. This is the crucial moment, so we will understand it slowly. As $$n$$ rises,
@@ -83,7 +83,7 @@ As earlier, here the approximation becomes an equality as $$n$$ goes to infinity
 
 This means the phase of the power $$\lim_{n\to\infty}(1+ix/n)^n$$ is $$x$$ itself! Its magnitude, instead, is the length of the $$n$$-th hypotenuse, which is 1. Here is another image to help us get confident with that:
 
-![The power as n rises](/images/euler/euler2.png)
+![The power as n rises](/images/another-intuitive-approach-eulers-formula/euler2.png)
 {:style="text-align: center"}
 
 These are the magnitude and the phase of $$e^{ix}$$: we can then write:
