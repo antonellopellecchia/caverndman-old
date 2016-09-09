@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Another intuitive approach: Euler's formula for complex numbers"
-date:   2016-06-16 19:07:00 +0200
+date:   2016-06-16
 tags: [mathematics, intuition]
 ---
 

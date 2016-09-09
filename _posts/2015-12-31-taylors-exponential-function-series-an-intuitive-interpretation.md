@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Taylor's exponential function series: an intuitive interpretation"
-date:   2015-12-31 17:49:47 +0200
+date:   2015-12-31
 tags: [mathematics, intuition]
 ---
 

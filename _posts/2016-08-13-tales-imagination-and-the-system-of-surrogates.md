@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tales, imagination and the system of surrogates"
-date:   2016-08-13 11:31:00 +0200
+date:   2016-08-13
 tags: [literature, imagination]
 excerpt: What's the meaning of selling fancy? A book, a film and perhaps even a videogame are condensed imagination, extracted from the mind of its creator and shaped in a form that can be conveyed. It's fundamental to wonder how much good is there in such a passion, that sees protagonists both the sender and the receiver; how can a similar activity involve everyone, and how to coordinate it with an likewise important side of thought, the analytic and scientific one, often considered irreconciliable with art across the centuries, now superior, now subordinate. How to behave with the dematerialization of art - such as with electronic formats, that for strange reasons frighten somebody; and how to compare the aesthetic sense that stories can arouse with the way in which they are instead instructive. Can our brain see as beautiful something we cannot draw any benefit from?
 
