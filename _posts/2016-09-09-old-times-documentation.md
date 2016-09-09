@@ -10,6 +10,8 @@ This is the documentation for *Old Times*, a Jekyll template featuring a pseudo-
 ![Old Times preview](/images/old-times-documentation/preview.png)
 {:style="text-align: center"}
 
+<!--break-->
+
 Installation
 ------------
 
