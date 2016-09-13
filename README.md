@@ -1,2 +1,2 @@
 # caverndman.github.io
-Cavern'd man blog
+The cavern'd man blog

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Old Times, a Jekyll template: documentation"
+title:  "Documentation for Old Times, a Jekyll template"
 date:   2016-09-09
 tags: [web development, jekyll]
 ---
 
 This is the documentation for *Old Times*, a Jekyll template featuring a pseudo-newspaper style I just uploaded on [Themeforest](http://themeforest.net).
+
 
 ![Old Times preview](/images/old-times-documentation/preview.png)
 {:style="text-align: center"}
