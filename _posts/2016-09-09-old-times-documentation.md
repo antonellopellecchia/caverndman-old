@@ -2,7 +2,7 @@
 layout: post
 title:  "Documentation for Old Times, a Jekyll template"
 date:   2016-09-09
-tags: [web development, jekyll]
+category: jekyll
 ---
 
 This is the documentation for *Old Times*, a Jekyll template featuring a pseudo-newspaper style I just uploaded on [Themeforest](http://themeforest.net).

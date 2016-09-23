@@ -1,0 +1,6 @@
+<div class="article group">
+	<div class="article_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+	{% include meta.html %}
+	<div class="article_text">{{ post.excerpt }}<p></p></div>
+	<div class="article_read_more"><a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></div>
+</div>

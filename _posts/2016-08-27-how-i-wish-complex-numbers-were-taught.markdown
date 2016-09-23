@@ -2,7 +2,7 @@
 layout: post
 title:  "How I wish complex numbers were taught"
 date:   2016-08-27
-tags: [mathematics, intuition]
+category: mathematics
 excerpt: In his 1946 essay «The metaphysical principles of the infinitesimal calculus», the philosopher René Guénon asserts that any number wich is not a positive integer is not an actual number. His argumentation rises from noticing that natural numbers, the first to be introduced (or discovered, but there may be a whole other chapter of discussion around which is the correct verb) by humans, contain the purest idea of «quantity». Two serves to indicate a precise quantity of objects, and there is no other characteristic that we can associate with the number two.
 ---
 

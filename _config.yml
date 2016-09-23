@@ -1,18 +1,26 @@
+# System settings
+host: 0.0.0.0
+
 # Site settings
 title: The cavern'd man
-email: caverndman@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Small, personal blog on mathematics, physics and programming,
+  with some digressions in music and literature.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://caverndman.github.io" # the base hostname & protocol for your site
+disqus_enabled: True
+disqus_username: caverndman
 github_username: caverndman
-description: >
-  Mathematics, physics, music, programming and writing: this
-  blog is about nothing of these.
-baseurl: ""
-url: "http://caverndman.github.io"
+twitter_username: caverndman
+google_username: 117229073793973468168
+social_buttons: True
+social_twitter: True
+social_facebook: True
+social_googleplus: True
 excerpt_separator: <!--break-->
 paginate: 5
 
 # Build settings
 markdown: kramdown
-
 gems:
   - jekyll-paginate
-  - jekyll-gist

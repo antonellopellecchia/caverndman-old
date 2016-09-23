@@ -12,15 +12,22 @@
 			<li title="#D96459" style="background: #D96459"></li>
 			<li title="#8C4646" style="background: #8C4646"></li>
 		</ul>
-
-		<div id="site_wrapper">
+		<div id="wrapper">
 			{% include header.html %}
+			<div class="isSocial" style="display:none">{{ site.social_buttons }}</div>
+			<div class="url" style="display:none">{{ site.url }}</div>
 			<div id="main">
-				{{ content }}
+				<div id="search">
+					<input type="text" placeholder="Search..." id="search_input" />
+					<a href="#" id="search_submit"><i class="fa fa-search" aria-hidden="true"></i></a>
+					<!--a href="#" id="search_reset">Reset</a-->
+				</div>
+				<div id="content">
+					{{ content }}
+				</div>
+				{% include footer.html %}
 			</div>
-			{% include footer.html %}
 		</div>
-
 	</body>
-
+	<script src="{{ "/js/script.js" | prepend: site.baseurl }}"></script>
 </html>

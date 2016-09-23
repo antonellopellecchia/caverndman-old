@@ -3,27 +3,24 @@ layout: default
 comments: true
 ---
 
-<div class="article_single">
-	<h1 class="article_title">{{ page.title }}</h1>
-		{% if page.tags.size > 0 %}
-			<div class="article_tags">
-			Tags: {% for tag in page.tags %}
-				<span class="article_tag"><a href="#">{{ tag }}</a></span>
-			{% endfor %}
-			</div>
-		{% endif %}
-	<div class="article_date">{{ page.date | date: "%b %-d, %Y" }}</div>
-	<div class="article_text">
-		{{ content }}
-	</div>
+<div class="article single">
+	<div class="article_title"><a>{{ page.title }}</a></div>
+	{% assign post = page %}
+	{% include meta.html %}
+	<div class="article_text">{{ content }}</div>
+	{% include social.html %}
+	<div style="clear:both"></div>
 	<div id="article_pagination">
 		{% if page.previous.url %}
-			<div><a class="previous" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a></div>
+			<div class="previous"><a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a></div>
 		{% endif %}
 		{% if page.next.url %}
-			<div><a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a></div>
+			<div class="next"><a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a></div>
 		{% endif %}
+		<div style="clear:both"></div>
 	</div>
+
+	{% if site.disqus_enabled %}
 	<div id="article_comments">
 		{% if layout.comments %}
 			<div id="disqus_thread"></div>
@@ -35,7 +32,7 @@ comments: true
 				(function() {
 					var disqus_developer = 1;
 					var d = document, s = d.createElement('script');
-					s.src = '//caverndman.disqus.com/embed.js';
+					s.src = '//{{ site.disqus_username }}.disqus.com/embed.js';
 					s.setAttribute('data-timestamp', +new Date());
 					(d.head || d.body).appendChild(s);
 				})();
@@ -43,4 +40,5 @@ comments: true
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 		{% endif %}
 	</div>
+	{% endif %}
 </div>

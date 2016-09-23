@@ -2,7 +2,7 @@
 layout: post
 title:  "Another intuitive approach: Euler's formula for complex numbers"
 date:   2016-06-16
-tags: [mathematics, intuition]
+category: mathematics
 ---
 
 Complex numbers do exist.

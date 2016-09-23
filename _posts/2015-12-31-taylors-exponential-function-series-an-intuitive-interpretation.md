@@ -2,7 +2,7 @@
 layout: post
 title:  "Taylor's exponential function series: an intuitive interpretation"
 date:   2015-12-31
-tags: [mathematics, intuition]
+category: mathematics
 ---
 
 Understanding how the exponential function works is like putting the last piece

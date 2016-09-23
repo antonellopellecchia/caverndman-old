@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p>Welcome to <cite>The cavern'd man</cite>! This blog is about mathematics, physics, music, programming and writing. Well, at the moment you may not find an article for each topic, but to cover them all is my intention.<br />
+<p>Welcome to <cite>The cavern'd man</cite>! This blog is about mathematics, physics, programming and writing. Well, at the moment you may not find an article for each topic, but to cover them all is my intention.<br />
 The title comes from the incipit of William Blake's <cite>Europe: a prophecy</cite>: go and read it!</p>
 
 <p>I will always believe and try to put in practice this (probably apocryphal, but it doesn't matter) quotation by Albert Einstein:</p>

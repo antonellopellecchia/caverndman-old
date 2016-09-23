@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: page
 title: Projects
 permalink: /projects/
 ---
 
-<h1 id="page_title">Projects</h1>
 {% for project in site.data.projects %}
 	<div class="project">
-		<h2 class="project_title"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2>
+		<div class="project_title"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></div>
 		<div class="project_image"><img src="/images/projects/{{ project.image }}" /></div>
 		<div class="project_description">{{ project.description }}</div>
 		<div style="clear:both"></div>

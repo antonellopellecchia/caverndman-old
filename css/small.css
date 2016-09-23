@@ -5,23 +5,60 @@ body {
 	box-sizing: border-box;
 }
 
-div#site_wrapper {
-	width: 99%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+#site_header {
+	float: none;
+	position: static;
+	width: auto;
 }
 
-ul#navigation {
-	margin-top: .5em;
+#site_title {
+	font-size: auto;
+}
+
+#navigation {
+	margin-top: 1.5em;
+	width: auto;
+}
+
+#search {
 	width: 90%;
-	font-weight: bold;
 }
 
-h1.article_title {
+#main {
+	float: none;
+	position: static;
+	width: 100%;
+	margin: 1.5em auto;
+}
+
+.article_title {
+	margin: 0;
+	font-size: 2em;
+}
+
+.article {
+	width: 100%;
+	float: none;
+}
+
+.article_text,
+.article_meta,
+.article_share,
+#article_pagination,
+#article_comments {
+	width: 100%;
+}
+
+#footer {
+	position: static;
 	text-align: center;
+	font-size: .9em;
 }
 
-form#article_comment_send textarea, form#article_comment_send input[type=text] {
-	width: 90%;
+#footer_left,
+#footer_right {
+	float: none;
+	width: auto;
+	padding: .5em 0;
+	text-align: justify;
 }
