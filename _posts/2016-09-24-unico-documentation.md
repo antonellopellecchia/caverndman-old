@@ -5,7 +5,7 @@ date: 2016-09-24
 category: jekyll
 ---
 
-This is the documentation for *Unico*, a clean and responsive Jekyll template featuring image covers and a grid layout. *Unico* is available in [Themeforest](http://themeforest.net). You can find a live demo for [here](/unico).
+This is the documentation for *Unico*, a clean and responsive Jekyll template featuring image covers and a grid layout. *Unico* is available in [Themeforest](http://themeforest.net). You can find a live demo [here](/unico).
 
 <!--break-->
 
